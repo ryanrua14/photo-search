@@ -1,0 +1,33 @@
+#gallery {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+#gallery img {
+  display: inline-grid;
+  height: 350px;
+  width: 350px;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+header {
+  overflow-x: hidden;
+  position: fixed;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.navbar fixed-top {
+  z-index: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
